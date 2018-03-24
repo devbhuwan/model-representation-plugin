@@ -25,6 +25,18 @@
             <version>3.7</version>
         </dependency>
         <dependency>
+            <groupId>io.github.devbhuwan</groupId>
+            <artifactId>maven-plugin-core</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.devbhuwan</groupId>
+            <artifactId>maven-plugin-test-jupiter</artifactId>
+            <version>1.0.0.RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
             <version>3.9.0</version>
