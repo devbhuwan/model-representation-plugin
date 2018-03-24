@@ -5,7 +5,7 @@
     <parent>
         <groupId>io.github.devbhuwan</groupId>
         <artifactId>maven-plugin-starter-parent</artifactId>
-        <version>development-SNAPSHOT</version>
+        <version>1.0.0.RELEASE</version>
     </parent>
 
     <artifactId>model-representation-plugin</artifactId>
