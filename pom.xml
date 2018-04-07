@@ -5,12 +5,12 @@
     <parent>
         <groupId>io.github.devbhuwan</groupId>
         <artifactId>maven-plugin-starter-parent</artifactId>
-        <version>development-SNAPSHOT</version>
+        <version>1.0.0.RELEASE</version>
     </parent>
 
     <artifactId>model-representation-plugin</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <version>development-SNAPSHOT</version>
+    <packaging>maven-plugin</packaging>
 
     <name>Model Representation Plugin</name>
 
@@ -25,18 +25,23 @@
             <version>3.7</version>
         </dependency>
         <dependency>
+            <groupId>io.github.devbhuwan</groupId>
+            <artifactId>maven-plugin-core</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.devbhuwan</groupId>
+            <artifactId>maven-plugin-test-jupiter</artifactId>
+            <version>1.0.0.RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
             <version>3.9.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-    </repositories>
 
 </project>
